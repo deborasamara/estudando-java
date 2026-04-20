@@ -33,13 +33,28 @@ public class Main{
     // ---------------- Orientação a Objetos
     public static void main(String[] args){
         // Obj 1
-        Ninja naruto = new Ninja();
-        naruto.nome = "Narutinho Uzumaki";
+        Usumake Naruto = new Usumake();
+        // Naruto.nome = "Naruto uzumake";
+        // Naruto.idade = 16;
+        Naruto.setNome("Naruto uzumake");
+        Naruto.setIdade(16);
+        Naruto.temBiju = true;
+        Naruto.ataqueBase();
+
 
         // Obj 2
         Uchiha sasuke = new Uchiha();
         sasuke.nivelDoSharingan = "três";
-        sasuke.nome = "Sasuke Uchiha";
+        // sasuke.nome = "Sasuke Uchiha";
+        sasuke.setNome("Sasuke Uchiha");
+        System.out.println("nome do sasuke: "+sasuke.getNome());
         sasuke.sharinganAtivado();
+        sasuke.ataqueBase(30);
+
+        // polimorfismo - o mesmo método, mas com comportamentos diferentes
+         Naruto.ataqueBase();
+         sasuke.ataqueBase();
     }
+
+    
 }
