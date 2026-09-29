@@ -3,7 +3,7 @@ JAVA
 - Fortemente tipada
 - independente de plataforma
 
-JVM
+JVM (Java Virtual Machine)
 - codigo java -> transforma em bytecode -> JVM
 
 
