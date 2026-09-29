@@ -1,0 +1,4 @@
+# A base da linguagem java
+-  POO 
+- Fortemente tipada
+- Independente de plataforma
